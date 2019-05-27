@@ -1,0 +1,38 @@
+[
+  {
+    "id": "52b3d7bf-8df4-4268-98a4-b4cb6247a22c",
+    "data": [
+      {
+        "text": "when is my bus coming",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511443981
+  },
+  {
+    "id": "5a31d768-629a-4b39-bb30-a94482b998cd",
+    "data": [
+      {
+        "text": "what time is my bus coming",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1511443981
+  },
+  {
+    "id": "f8068dc3-00df-476f-bf74-40215bc18107",
+    "data": [
+      {
+        "text": "May I know when is my bus coming",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511443981
+  }
+]

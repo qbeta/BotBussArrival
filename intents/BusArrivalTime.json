@@ -1,0 +1,44 @@
+{
+  "id": "156069a4-6845-4063-9361-df59b1428b54",
+  "name": "BusArrivalTime",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "busarrivaltime",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e2d983fa-c63a-4f56-be7e-47a8f67e8c83",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "BusStopNo",
+          "value": "$BusStopNo",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Kindly let me know the Bus Stop Number you are at?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511443981,
+  "fallbackIntent": false,
+  "events": []
+}
