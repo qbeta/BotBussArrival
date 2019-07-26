@@ -113,7 +113,7 @@ app.post('/fordf', (req, res) => {
       request({
                 uri: restUrl,
                 method: 'GET',
-                headers: {'AccountKey': 'MDpPbbg3R56Navmbvr + dRA =='}
+                headers: {'AccountKey': 'MDpPbbg3R56Navmbvr+dRA=='}
                  }, (err, response, body) => {
 
                 let jsonresponse = JSON.parse(body);
